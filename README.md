@@ -13,9 +13,9 @@
 
 Untarget Lp infinite Sqaure attack 동작
  1. `Imagenet validation set` 다운로드
-   - 다운로드 소스 : `https://academictorrents.com/collection/imagenet-2012`
-   - Imagenet 폴더를 만들고 그 안에 압축파일 해제 `tar -xvf ILSVRC2012_img_val.tar`
-   - Imagenet 소스 폴더를 Label별로 정리하기위한 스크립트 실행
+    ** 다운로드 소스 : `https://academictorrents.com/collection/imagenet-2012`
+    ** Imagenet 폴더를 만들고 그 안에 압축파일 해제 `tar -xvf ILSVRC2012_img_val.tar`
+    ** Imagenet 소스 폴더를 Label별로 정리하기위한 스크립트 실행
      `wget -qO- https://raw.githubusercontent.com/soumith/imagenetloader.torch/master/valprep.sh | bash`
  2. data.py 변경하기
    - data.py 파일안에 IMAGENET_PATH를 다운받은 Imagenet 폴더로 변경
